@@ -1,4 +1,3 @@
-Basler Vision Toolkit
 This repository contains a set of Python tools designed for machine vision applications using Basler industrial cameras. It supports real-time image acquisition, camera calibration, image processing, code recognition (OCR, QR, DataMatrix), and calibration pattern generation. The solution is built with usability in mind, featuring intuitive graphical user interfaces (GUIs) powered by Tkinter.
 
 Features
