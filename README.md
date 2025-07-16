@@ -1,6 +1,6 @@
 This repository contains a set of Python tools designed for machine vision applications using Basler industrial cameras. It supports real-time image acquisition, camera calibration, image processing, code recognition (OCR, QR, DataMatrix), and calibration pattern generation. The solution is built with usability in mind, featuring intuitive graphical user interfaces (GUIs) powered by Tkinter.
 
-Features
+## Features
 Basler_gui.py – Vision Processing Interface
 An interactive GUI for live video streaming from Basler cameras with multiple vision tools:
 
@@ -46,9 +46,9 @@ Preview function for visual inspection
 
 Outline-only mode and border thickness setting
 
-Dependencies
+## Dependencies
 Make sure you have the following Python packages installed:
-
+```bash
 opencv-python
 
 numpy
@@ -64,5 +64,6 @@ pytesseract
 pylibdmtx
 
 tkinterdnd2 (optional, for drag-and-drop support)
+```
 
 Tesseract OCR must also be installed separately and its path configured in Basler_gui.py.
