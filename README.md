@@ -66,4 +66,4 @@ pylibdmtx
 tkinterdnd2 (optional, for drag-and-drop support)
 ```
 
-Tesseract OCR must also be installed separately and its path configured in Basler_gui.py.
+Tesseract OCR must also be installed separately and its path configured in *Basler_gui.py*.
