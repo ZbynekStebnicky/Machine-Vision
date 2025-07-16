@@ -4,47 +4,47 @@ This repository contains a set of Python tools designed for machine vision appli
 Basler_gui.py – Vision Processing Interface
 An interactive GUI for live video streaming from Basler cameras with multiple vision tools:
 
-Live processing modes: Edge Detection, Thresholding, Contour Detection, Histogram Equalization, etc.
+-Live processing modes: Edge Detection, Thresholding, Contour Detection, Histogram Equalization, etc.
 
-Object tracking via OpenCV Trackers
+-Object tracking via OpenCV Trackers
 
-Optical character recognition (OCR) via Tesseract
+-Optical character recognition (OCR) via Tesseract
 
-QR and DataMatrix code decoding
+-QR and DataMatrix code decoding
 
-Snapshot and video recording capabilities
+-Snapshot and video recording capabilities
 
-Interactive white balance calibration
+-Interactive white balance calibration
 
-Adjustable blob detection parameters
+-Adjustable blob detection parameters
 
-Dynamic resolution setting and preview
+-Dynamic resolution setting and preview
 
 Basler_Calibration_gui.py – Camera Calibration Tool
 A comprehensive GUI for calibrating Basler cameras using a chessboard pattern:
 
-Live checkerboard detection with auto/manual frame capture
+-Live checkerboard detection with auto/manual frame capture
 
-Calibration of intrinsic camera parameters using OpenCV
+-Calibration of intrinsic camera parameters using OpenCV
 
-Undistortion of images based on saved calibration parameters
+-Undistortion of images based on saved calibration parameters
 
-Frame gallery for reviewing captured calibration frames
+-Frame gallery for reviewing captured calibration frames
 
-Drag-and-drop support for undistortion
+-Drag-and-drop support for undistortion
 
-Multilingual support (English/Czech)
+-Multilingual support (English/Czech)
 
 Calibration_Plate_Generator.py – Calibration Pattern Generator
 Generates printable calibration patterns (chessboard or circular dot grids):
 
-Customizable size, DPI, and output format
+-Customizable size, DPI, and output format
 
-Option to generate multiple patterns in batch
+-Option to generate multiple patterns in batch
 
-Preview function for visual inspection
+-Preview function for visual inspection
 
-Outline-only mode and border thickness setting
+-Outline-only mode and border thickness setting
 
 ## Dependencies
 Make sure you have the following Python packages installed:
